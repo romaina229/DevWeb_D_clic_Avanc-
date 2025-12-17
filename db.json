@@ -1,0 +1,28 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "nom": "John Doe",
+      "adresse": "John Doe",
+      "tel": "+2290197654321"
+    },
+    {
+      "id": "2",
+      "nom": "Jane Smith",
+      "adresse": "Jane Smith",
+      "tel": "+2290187654321"
+    },
+    {
+      "id": "3",
+      "nom": "Alice Johnson",
+      "adresse": "Alice Johnson",
+      "tel": "+2290177654321"
+    },
+    {
+      "id": "845e",
+      "nom": "Romain AKPO",
+      "adresse": "Godomey-Togoudo/Abomey-Calavi C/SB Maison ABODE",
+      "tel": "+2290194592567"
+    }
+  ]
+}
