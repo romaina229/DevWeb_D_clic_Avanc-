@@ -1,0 +1,692 @@
+{
+  "id": "f82e8ffa-0816-4375-a497-9b53d3096007",
+  "version": "2.0",
+  "name": "Test-User",
+  "url": "http://127.0.0.1:8000/",
+  "tests": [{
+    "id": "562831df-f96f-4ed7-bc7d-0cd71acd64b4",
+    "name": "Test-Garage-Sholom",
+    "commands": [{
+      "id": "43606a55-0240-446a-8139-78e0223ddb0c",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:8000/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da8866e5-21ea-4cde-917d-429f1049f985",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "914x720",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02137a60-91a6-46ba-885d-7b10e3458697",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Voir tous les véhicules",
+      "targets": [
+        ["linkText=Voir tous les véhicules", "linkText"],
+        ["css=.btn-outline-primary", "css:finder"],
+        ["xpath=//a[contains(text(),'Voir tous les véhicules')]", "xpath:link"],
+        ["xpath=(//a[@href='http://127.0.0.1:8000/vehicules'])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Voir tous les véhicules')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba0266f9-3e62-4b58-b3b0-79a247d041a5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nouveau véhicule",
+      "targets": [
+        ["linkText=Nouveau véhicule", "linkText"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//a[@href='http://127.0.0.1:8000/vehicules/create']", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Nouveau véhicule')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dff690ac-9d7e-4c4c-a355-b88fbbd3fd87",
+      "comment": "",
+      "command": "click",
+      "target": "id=immatriculation",
+      "targets": [
+        ["id=immatriculation", "id"],
+        ["name=immatriculation", "name"],
+        ["css=#immatriculation", "css:finder"],
+        ["xpath=//input[@id='immatriculation']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e5fa31d-476d-46b5-8b63-fad6c3d0e8a9",
+      "comment": "",
+      "command": "type",
+      "target": "id=immatriculation",
+      "targets": [
+        ["id=immatriculation", "id"],
+        ["name=immatriculation", "name"],
+        ["css=#immatriculation", "css:finder"],
+        ["xpath=//input[@id='immatriculation']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "BZ6033RB"
+    }, {
+      "id": "45654eef-c7a3-4569-a33f-e03aba1eb59e",
+      "comment": "",
+      "command": "click",
+      "target": "id=marque",
+      "targets": [
+        ["id=marque", "id"],
+        ["name=marque", "name"],
+        ["css=#marque", "css:finder"],
+        ["xpath=//input[@id='marque']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8aa871c-83b4-41e2-8e63-de1a1cbca803",
+      "comment": "",
+      "command": "type",
+      "target": "id=marque",
+      "targets": [
+        ["id=marque", "id"],
+        ["name=marque", "name"],
+        ["css=#marque", "css:finder"],
+        ["xpath=//input[@id='marque']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "TOYOTA"
+    }, {
+      "id": "fea85869-06c5-4272-8444-f2bd792b8551",
+      "comment": "",
+      "command": "click",
+      "target": "id=couleur",
+      "targets": [
+        ["id=couleur", "id"],
+        ["name=couleur", "name"],
+        ["css=#couleur", "css:finder"],
+        ["xpath=//input[@id='couleur']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fad40dde-5da8-49d9-a14a-d6342d80bbe1",
+      "comment": "",
+      "command": "type",
+      "target": "id=couleur",
+      "targets": [
+        ["id=couleur", "id"],
+        ["name=couleur", "name"],
+        ["css=#couleur", "css:finder"],
+        ["xpath=//input[@id='couleur']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Cendre"
+    }, {
+      "id": "73ca02f1-595e-4ebb-ae19-02c74e0ddf5e",
+      "comment": "",
+      "command": "click",
+      "target": "id=modele",
+      "targets": [
+        ["id=modele", "id"],
+        ["name=modele", "name"],
+        ["css=#modele", "css:finder"],
+        ["xpath=//input[@id='modele']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "829133de-ae18-4ba6-88c3-fd1429155963",
+      "comment": "",
+      "command": "type",
+      "target": "id=modele",
+      "targets": [
+        ["id=modele", "id"],
+        ["name=modele", "name"],
+        ["css=#modele", "css:finder"],
+        ["xpath=//input[@id='modele']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "perferendis"
+    }, {
+      "id": "23129688-0994-46ab-a4d0-9429dc2999d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=annee",
+      "targets": [
+        ["id=annee", "id"],
+        ["name=annee", "name"],
+        ["css=#annee", "css:finder"],
+        ["xpath=//input[@id='annee']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "2021"
+    }, {
+      "id": "6d60a3ce-8879-4efa-befc-7a93eb7f1ecc",
+      "comment": "",
+      "command": "type",
+      "target": "id=kilometrage",
+      "targets": [
+        ["id=kilometrage", "id"],
+        ["name=kilometrage", "name"],
+        ["css=#kilometrage", "css:finder"],
+        ["xpath=//input[@id='kilometrage']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "102395"
+    }, {
+      "id": "ce88a487-2ba3-49f5-8911-20e0e586a7ce",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "id=kilometrage",
+      "targets": [
+        ["id=kilometrage", "id"],
+        ["name=kilometrage", "name"],
+        ["css=#kilometrage", "css:finder"],
+        ["xpath=//input[@id='kilometrage']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "-0.40625,24.609375"
+    }, {
+      "id": "b98f926a-ea49-4917-98eb-e2954981a47c",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=kilometrage",
+      "targets": [
+        ["id=kilometrage", "id"],
+        ["name=kilometrage", "name"],
+        ["css=#kilometrage", "css:finder"],
+        ["xpath=//input[@id='kilometrage']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "-0.40625,24.609375"
+    }, {
+      "id": "89a149fb-f688-4f74-ad77-fd1d4284f55b",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "id=kilometrage",
+      "targets": [
+        ["id=kilometrage", "id"],
+        ["name=kilometrage", "name"],
+        ["css=#kilometrage", "css:finder"],
+        ["xpath=//input[@id='kilometrage']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "-0.40625,24.609375"
+    }, {
+      "id": "4c78769d-d22f-4782-990d-bc63175cbfe7",
+      "comment": "",
+      "command": "click",
+      "target": "id=kilometrage",
+      "targets": [
+        ["id=kilometrage", "id"],
+        ["name=kilometrage", "name"],
+        ["css=#kilometrage", "css:finder"],
+        ["xpath=//input[@id='kilometrage']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e8306b7-8b77-4080-a562-0c3909a77e6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=kilometrage",
+      "targets": [
+        ["id=kilometrage", "id"],
+        ["name=kilometrage", "name"],
+        ["css=#kilometrage", "css:finder"],
+        ["xpath=//input[@id='kilometrage']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "2036"
+    }, {
+      "id": "5b73b319-51ed-4450-8d5f-c3fdde8622c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=carosserie",
+      "targets": [
+        ["id=carosserie", "id"],
+        ["name=carosserie", "name"],
+        ["css=#carosserie", "css:finder"],
+        ["xpath=//select[@id='carosserie']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "892ae43d-01a4-4d6f-921f-15feb984d20f",
+      "comment": "",
+      "command": "select",
+      "target": "id=carosserie",
+      "targets": [],
+      "value": "label=Berline"
+    }, {
+      "id": "63a50ed1-1612-4c02-a4ab-605cc7f1f6a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=energie",
+      "targets": [
+        ["id=energie", "id"],
+        ["name=energie", "name"],
+        ["css=#energie", "css:finder"],
+        ["xpath=//select[@id='energie']", "xpath:attributes"],
+        ["xpath=//div[8]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "baffe88e-fa08-4614-b1d0-7d4d641a7fbf",
+      "comment": "",
+      "command": "select",
+      "target": "id=energie",
+      "targets": [],
+      "value": "label=Essence"
+    }, {
+      "id": "79920c08-348f-4513-b470-8c77143a358d",
+      "comment": "",
+      "command": "click",
+      "target": "id=boite",
+      "targets": [
+        ["id=boite", "id"],
+        ["name=boite", "name"],
+        ["css=#boite", "css:finder"],
+        ["xpath=//select[@id='boite']", "xpath:attributes"],
+        ["xpath=//div[9]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e3c9216-e56c-4b30-82b0-c46c14609fa5",
+      "comment": "",
+      "command": "select",
+      "target": "id=boite",
+      "targets": [],
+      "value": "label=Automatique"
+    }, {
+      "id": "ad76f786-1e3b-4625-a84b-9b74dd0e0f3f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Enregistrer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fea11d2-18eb-44b7-98a0-daaec7fe2b6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Enregistrer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9ca2253-0596-46d7-b8fe-50157b15bea9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Enregistrer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8d1a077-fd44-4bb3-a077-e9f526941ef0",
+      "comment": "",
+      "command": "click",
+      "target": "id=immatriculation",
+      "targets": [
+        ["id=immatriculation", "id"],
+        ["name=immatriculation", "name"],
+        ["css=#immatriculation", "css:finder"],
+        ["xpath=//input[@id='immatriculation']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0314bc38-0aae-486d-abf1-18087d0db0e1",
+      "comment": "",
+      "command": "type",
+      "target": "id=immatriculation",
+      "targets": [
+        ["id=immatriculation", "id"],
+        ["name=immatriculation", "name"],
+        ["css=#immatriculation", "css:finder"],
+        ["xpath=//input[@id='immatriculation']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "BZ633RB"
+    }, {
+      "id": "488fa7c2-05fc-45e8-be24-d8be0f10eca6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Enregistrer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3b1f757-bf4e-42a4-99d7-64da5e3a9795",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(3)",
+      "targets": [
+        ["css=.list-group-item:nth-child(3)", "css:finder"],
+        ["xpath=(//a[@href='http://127.0.0.1:8000/reparations'])[2]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93dd7fbc-3e1e-4803-862a-59e8a8ad9ce9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nouvelle réparation",
+      "targets": [
+        ["linkText=Nouvelle réparation", "linkText"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//a[@href='http://127.0.0.1:8000/reparations/create']", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Nouvelle réparation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74eb311b-5192-46e4-a1a9-83e445a8eec9",
+      "comment": "",
+      "command": "click",
+      "target": "id=vehicule_id",
+      "targets": [
+        ["id=vehicule_id", "id"],
+        ["name=vehicule_id", "name"],
+        ["css=#vehicule_id", "css:finder"],
+        ["xpath=//select[@id='vehicule_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dbf5c96-785b-4160-9a75-5142b102af12",
+      "comment": "",
+      "command": "click",
+      "target": "id=vehicule_id",
+      "targets": [
+        ["id=vehicule_id", "id"],
+        ["name=vehicule_id", "name"],
+        ["css=#vehicule_id", "css:finder"],
+        ["xpath=//select[@id='vehicule_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dc97491-5a6a-4242-ab7b-b0e86be4d0bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=vehicule_id",
+      "targets": [
+        ["id=vehicule_id", "id"],
+        ["name=vehicule_id", "name"],
+        ["css=#vehicule_id", "css:finder"],
+        ["xpath=//select[@id='vehicule_id']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06eac6c4-adf9-4f59-b8e5-beae4bd7ca2b",
+      "comment": "",
+      "command": "select",
+      "target": "id=vehicule_id",
+      "targets": [],
+      "value": "label=BZ633RB - TOYOTA perferendis"
+    }, {
+      "id": "6cc39c6c-b08a-46c1-8442-81b4adb5921f",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=techniciens",
+      "targets": [
+        ["id=techniciens", "id"],
+        ["name=techniciens[]", "name"],
+        ["css=#techniciens", "css:finder"],
+        ["xpath=//select[@id='techniciens']", "xpath:attributes"],
+        ["xpath=//div[4]/select", "xpath:position"]
+      ],
+      "value": "label=Floy Paucek (Climatisation)"
+    }, {
+      "id": "b299aef0-315c-46e2-b0c0-9d0eda75d2ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=duree_main_oeuvre",
+      "targets": [
+        ["id=duree_main_oeuvre", "id"],
+        ["name=duree_main_oeuvre", "name"],
+        ["css=#duree_main_oeuvre", "css:finder"],
+        ["xpath=//select[@id='duree_main_oeuvre']", "xpath:attributes"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "278df467-546f-4aa1-9fca-72d7eaac0b20",
+      "comment": "",
+      "command": "click",
+      "target": "id=duree_main_oeuvre",
+      "targets": [
+        ["id=duree_main_oeuvre", "id"],
+        ["name=duree_main_oeuvre", "name"],
+        ["css=#duree_main_oeuvre", "css:finder"],
+        ["xpath=//select[@id='duree_main_oeuvre']", "xpath:attributes"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aceafd15-e162-4d14-923a-0a8fcf698fb4",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=duree_main_oeuvre",
+      "targets": [
+        ["id=duree_main_oeuvre", "id"],
+        ["name=duree_main_oeuvre", "name"],
+        ["css=#duree_main_oeuvre", "css:finder"],
+        ["xpath=//select[@id='duree_main_oeuvre']", "xpath:attributes"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2916e1bf-665b-44e3-828f-7818c01cc648",
+      "comment": "",
+      "command": "click",
+      "target": "id=duree_main_oeuvre",
+      "targets": [
+        ["id=duree_main_oeuvre", "id"],
+        ["name=duree_main_oeuvre", "name"],
+        ["css=#duree_main_oeuvre", "css:finder"],
+        ["xpath=//select[@id='duree_main_oeuvre']", "xpath:attributes"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c5bf678-48f8-43b4-b423-1d06bdfec186",
+      "comment": "",
+      "command": "select",
+      "target": "id=duree_main_oeuvre",
+      "targets": [],
+      "value": "label=2 heures"
+    }, {
+      "id": "52ca9b0f-9cfe-47d9-a44b-c22e4173abc0",
+      "comment": "",
+      "command": "click",
+      "target": "id=objet_reparation",
+      "targets": [
+        ["id=objet_reparation", "id"],
+        ["name=objet_reparation", "name"],
+        ["css=#objet_reparation", "css:finder"],
+        ["xpath=//textarea[@id='objet_reparation']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d144917-5fb6-47a3-bd27-213b2084bfa9",
+      "comment": "",
+      "command": "type",
+      "target": "id=objet_reparation",
+      "targets": [
+        ["id=objet_reparation", "id"],
+        ["name=objet_reparation", "name"],
+        ["css=#objet_reparation", "css:finder"],
+        ["xpath=//textarea[@id='objet_reparation']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Complement de gaz"
+    }, {
+      "id": "cd3c8b61-c46f-43a7-93d9-0158c2998159",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Enregistrer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be59ca65-0fa2-452a-bedd-364aa64c1dd8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.list-group-item:nth-child(4)",
+      "targets": [
+        ["css=.list-group-item:nth-child(4)", "css:finder"],
+        ["xpath=(//a[@href='http://127.0.0.1:8000/techniciens'])[2]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6806f19-273c-47f6-bfa6-dac76c29ac89",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Nouveau technicien",
+      "targets": [
+        ["linkText=Nouveau technicien", "linkText"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//a[@href='http://127.0.0.1:8000/techniciens/create']", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Nouveau technicien')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6815bf0-bde3-4188-ab1b-5a504d8a5181",
+      "comment": "",
+      "command": "click",
+      "target": "id=nom",
+      "targets": [
+        ["id=nom", "id"],
+        ["name=nom", "name"],
+        ["css=#nom", "css:finder"],
+        ["xpath=//input[@id='nom']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a24a2337-0f82-4357-8a37-32db354c6020",
+      "comment": "",
+      "command": "type",
+      "target": "id=nom",
+      "targets": [
+        ["id=nom", "id"],
+        ["name=nom", "name"],
+        ["css=#nom", "css:finder"],
+        ["xpath=//input[@id='nom']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "GUEKPON"
+    }, {
+      "id": "511c05f0-8870-4f60-be34-bd35fd5f3c50",
+      "comment": "",
+      "command": "type",
+      "target": "id=prenom",
+      "targets": [
+        ["id=prenom", "id"],
+        ["name=prenom", "name"],
+        ["css=#prenom", "css:finder"],
+        ["xpath=//input[@id='prenom']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Carleton Bor"
+    }, {
+      "id": "7453f3cd-4cdd-4221-96bc-3a39bf3fc6f9",
+      "comment": "",
+      "command": "click",
+      "target": "id=prenom",
+      "targets": [
+        ["id=prenom", "id"],
+        ["name=prenom", "name"],
+        ["css=#prenom", "css:finder"],
+        ["xpath=//input[@id='prenom']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "640e7c32-217a-4bb6-9d02-6937e2a8cb15",
+      "comment": "",
+      "command": "type",
+      "target": "id=prenom",
+      "targets": [
+        ["id=prenom", "id"],
+        ["name=prenom", "name"],
+        ["css=#prenom", "css:finder"],
+        ["xpath=//input[@id='prenom']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Carleton Bor G."
+    }, {
+      "id": "df94fd14-470b-48de-a806-8d06f180f009",
+      "comment": "",
+      "command": "click",
+      "target": "id=specialite",
+      "targets": [
+        ["id=specialite", "id"],
+        ["name=specialite", "name"],
+        ["css=#specialite", "css:finder"],
+        ["xpath=//select[@id='specialite']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba7c25f9-7ae5-41bc-b3d6-80a66583e148",
+      "comment": "",
+      "command": "select",
+      "target": "id=specialite",
+      "targets": [],
+      "value": "label=Électricité auto"
+    }, {
+      "id": "85b074d3-79a5-44ef-bfad-5ecda0b3b285",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary",
+      "targets": [
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,' Enregistrer')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cbd28ae2-4365-4e86-b9b6-898d33b1a612",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost:5173/", "http://127.0.0.1:8000/"],
+  "plugins": []
+}
