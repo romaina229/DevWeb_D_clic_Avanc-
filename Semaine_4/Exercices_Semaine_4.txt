@@ -1,0 +1,14 @@
+Bonjour cher tuteur,
+
+Veuillez retrouver tous les exercices du début jusqu'à présent dans mon repositories DevWeb_D_clic_Avancé, via le lien : https://github.com/romaina229/DevWeb_D_clic_Avanc-   
+
+			"Exercice semaine 4"
+
+Pour visualiser directement le travail de la semaine encours cliquez ce lien :https://github.com/romaina229/DevWeb_D_clic_Avanc-/Semain_4
+
+Après réalisation des tests de INJECTION_SQL_ET_XSS et EXECUTION_XML, nous avons soumis les rapports suivants :
+•	rapport_execution_xml.pdf
+•	RAPPORT_DE_TESTS_DE_SECURITE_INJECTION_SQL_ET_XSS.pdf
+
+
+			Je vous remercie pour la compréhension ! 16:58 08/01/2026
